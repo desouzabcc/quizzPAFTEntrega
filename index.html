@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>QuizNerd - O Quiz do PAFT</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/custom.css'>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+</head>
+
+<!-- <body onload="save()" onunload="save()"> -->
+
+<body onunload="save()">
+    <div class="container">
+        <main>
+            <div id="divLeft">
+                <h1 class="quiz_nerd">Quiz<span class="yellowQuiz" style="margin-left: -5px;">Nerd</span></h1>
+                <br>
+                <p class="bem_vindo">Bem vindo ao nosso Quiz <br> PAFT</p>
+                <br>
+                <form action="question.html">
+                    <!-- 
+                    <input class="playerName" type="text" placeholder="Digite o seu nome" required>
+                    -->
+                    <br><br>
+                    <button class="yeloowQuizBack start">INICIAR</button>
+                    <span id="userHidden" style="display: none"> </span>
+                    <br>
+                </form>
+                <p id="footHome"><small>Orgulhosamente desenvolvido por: Alexandre, Douglas e Rafael</small></p>
+            </div>
+
+            <div id="divRight">
+                <img src="img/Logo_Quiz_Nerd.svg" style="width: 55%;">
+            </div>
+        </main>
+    </div>
+    <script type="text/javascript" src='js/main.js'></script>
+</body>
+
+</html>

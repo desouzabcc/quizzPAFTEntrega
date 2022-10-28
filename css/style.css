@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Poppins;
+    
+ }
+
+ body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display:flex ;
+    justify-content: center;
+    background-color: #121212;
+}
+
+.pagina{
+    flex: block;
+    align-items: center;
+    justify-content: start;
+    width: 80%;
+    height: 90vh;
+    padding: 2%;
+}
+
+.principal{
+    display: flex;
+    margin-bottom: 20%;
+}
+
+.direita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #121212;
+    color: rgb(243, 243, 243);
+    text-align: center;
+    height: 90vh;
+}
+
+.esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border: 2px #121212 solid;
+    background-color: #f5f5f5;
+    padding: 10% 0 10% 2%;
+    text-align: center;
+    width: 50%;
+    height: 90vh;
+}
+
+.wrap-reverse {
+	flex-wrap: wrap;
+}
+
+.central{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+   height: 15vh;
+}
+
+.direita1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    height: 80vh;
+}
+
+.esquerda1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: #f5f5f5;
+    width: 50%;
+    height: 80vh;
+    padding-left: 20px;
+}
+
+.questName{
+    margin-top: 4%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20%;
+    background-color: #dede3a;
+}
+
+
+.quiz_nerd {
+    font-size: 75px;
+    font-weight: 100;
+}
+
+.bem_vindo {
+    font-weight: 400;
+    font-size: 20px;
+    color:white;
+}
+
+.yellowQuiz{
+    color: #dede3a;
+}
+
+#divLeft{
+    background-color: #121212;
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    margin-top: 24%;
+}
+
+#divRight{
+    float: left;
+    background-color: #f5f5f5;
+    padding: 0% 0 10% 2%;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+}
+
+#footHome{
+    padding-top: 25%;
+}
+
+.playerName{
+    padding: 15px 0 15px 20px;
+    border-radius: 15px;
+    width: 80%;
+    font-size: 14px;
+}
+
+.start{
+    margin-top: 4%;
+    padding: 5px 15px;
+    border-radius: 15px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
+
+.yeloowQuizBack{
+    background-color: #dede3a;
+}
+.yeloowQuizBack:hover {
+    cursor: pointer;
+}
+
+/* TELA QUESTION */
+#container{
+    padding: 10vh;
+    background-color: #121212;
+    height: 100vh;
+}
+
+#backGroud{
+    background-color: #f5f5f5;
+}
+
+#header{
+    padding: 20px 0 10px 50px;
+    width: 100%;
+    background-color: #f5f5f5;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1366px) {
+    #header{
+        padding: 0px 0 10px 50px;
+    }
+}
+
+#header h1{
+    font-size: 60px;
+    width: 20%;
+    display: inline-block;
+}
+
+#leftSide{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#imgQuest, #nerdFirst{
+    width: 100%;
+}
+
+#rightSide{
+    width: 100%;
+    display: inline-block;
+    background-color: #f5f5f5;
+    height: 90%;
+    min-height: 90%;
+}
+#clock {
+    padding-left: 30%;
+    display: inline-block;
+    font-size: 30px;
+    color: red;
+}
+
+.avatar{
+    display: inline-block;
+    width: 30px;
+}
+
+#usuário{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.avatar_nome {
+    padding-top: 30px;
+    display: inline-block;
+    float: right;
+    padding-right: 50px;
+}
+
+#picsQuestion {
+    width: 200px;
+    height: 500px;
+}
+
+.wrapple {
+    display: flex;
+    justify-content: space-between;
+}
+
+.questoes {
+    padding: 1.5rem;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.questoes ol li {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+} 
+
+.questoes ol li:hover {
+    background: #00b0ff;
+    cursor: pointer;
+}
+
+.bloqueado {
+    display: none;
+}
+
+.bloqueado li:hover {
+    display: none;
+} 
+
+.centro{
+    align-items: center;
+    text-align: center;
+}
+
+.pontuacao {
+    padding: 1.5rem;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+ .pontuacao ol li {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #121212;
+    color: #f5f5f5;
+} 
+
+.reset{
+    margin-top: 4%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.disableView {
+    pointer-events:none; 
+    opacity:0.6;        
+}
+
+
+
+#noScroll{
+    overflow: hidden;
+  }
+  
+
+.hidd{
+    display: none;
+}
+
+#pontA{
+    color: #ececec;
+}
